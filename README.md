@@ -22,16 +22,24 @@ cudatoolkit == 11.0 (Only needed if training on GPU)
 
 # How to use my code
 
-You will first need to install unityagents provided in this repo. To do that - 
-1. Run in terminal **!pip -q install ./python**
+You will first need to install unityagents provided in this repo. To do that run in terminal - 
+```
+!pip -q install ./python
+```
 
 This command needs to be run only once. After that you don't need to run this again.
 
-To train the agent from scratch -
-1. Run in terminal **python main.py**
+To train the agent from scratch run -
+```
+python main.py
+```
 
 This will start the training. If you wish to change network parameters or other hyperparameters you will have to use a python IDE of your choice and change the **main.py** and/or **networks.py** files. Once, the training is completed the model will be saved in the folder **trained_models**.
 
 This repo contains a trained model. To watch a random agent or a smart agent play -
-1. Run in terminal **python random_agent.py**
-1. Run in terminal **python smart_agent.py**
+```
+python random_agent.py
+```
+```
+python smart_agent.py
+```
